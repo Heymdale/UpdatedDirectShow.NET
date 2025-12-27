@@ -111,3 +111,5 @@ vs/
 bin/
 /.vs
 /README.md.bak
+/src/.vs
+*.bak

@@ -1,4 +1,50 @@
-DirectShow.NET
+UpdatedDirectShow.NET
 ==============
 
-This is a mirror (and possible extensions/forks) for the DirectShow.NET library located over at http://sourceforge.net/projects/directshownet/
+This program only extend VideoProcAmpProperty and CameraControlProperty enums of the original library.
+
+All changes affect only DirectShowLib-2012 solution.
+
+The new lines start with "KSPROPERTY"
+
+VideoProcAmpProperty
+{
+    Brightness,
+    Contrast,
+    Hue,
+    Saturation,
+    Sharpness,
+    Gamma,
+    ColorEnable,
+    WhiteBalance,
+    BacklightCompensation,
+    Gain,
+    KSPROPERTY_VIDEOPROCAMP_DIGITAL_MULTIPLIER,
+    KSPROPERTY_VIDEOPROCAMP_DIGITAL_MULTIPLIER_LIMIT,
+    KSPROPERTY_VIDEOPROCAMP_WHITEBALANCE_COMPONENT,
+    KSPROPERTY_VIDEOPROCAMP_POWERLINE_FREQUENCY,
+}
+
+CameraControlProperty
+{
+    Pan = 0,
+    Tilt = 1,
+    Roll = 2,
+    Zoom = 3,
+    Exposure = 4,
+    Iris = 5,
+    Focus = 6,
+    KSPROPERTY_CAMERACONTROL_SCANMODE = 7,
+    KSPROPERTY_CAMERACONTROL_PRIVACY = 8,
+    KSPROPERTY_CAMERACONTROL_PANTILT = 9,
+    KSPROPERTY_CAMERACONTROL_PAN_RELATIVE = 10,
+    KSPROPERTY_CAMERACONTROL_TILT_RELATIVE = 11,
+    KSPROPERTY_CAMERACONTROL_ROLL_RELATIVE = 12,
+    KSPROPERTY_CAMERACONTROL_ZOOM_RELATIVE = 13,
+    KSPROPERTY_CAMERACONTROL_EXPOSURE_RELATIVE = 14,
+    KSPROPERTY_CAMERACONTROL_IRIS_RELATIVE = 15,
+    KSPROPERTY_CAMERACONTROL_FOCUS_RELATIVE = 16,
+    KSPROPERTY_CAMERACONTROL_PANTILT_RELATIVE = 17,
+    KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH = 18,
+    KSPROPERTY_CAMERACONTROL_AUTO_EXPOSURE_PRIORITY = 19
+}
