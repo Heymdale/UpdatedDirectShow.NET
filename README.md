@@ -7,6 +7,7 @@ All changes affect only DirectShowLib-2012 solution.
 
 The new lines start with "KSPROPERTY"
 
+```csharp
 VideoProcAmpProperty
 {
     Brightness,
@@ -48,3 +49,4 @@ CameraControlProperty
     KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH = 18,
     KSPROPERTY_CAMERACONTROL_AUTO_EXPOSURE_PRIORITY = 19
 }
+```
